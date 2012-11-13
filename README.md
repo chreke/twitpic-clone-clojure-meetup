@@ -1,8 +1,7 @@
-# snurveys
+# Twitpic-Clone
 
-A Clojure library designed to ... well, that part is up to you.
+A Clojure meetup svarm coding test project.
 
-## Usage
 
 FIXME
 
