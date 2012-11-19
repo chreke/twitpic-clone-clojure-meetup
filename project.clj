@@ -7,7 +7,8 @@
   :dependencies [[org.clojure/clojure "1.4.0"]
                  [compojure "1.1.3"]
                  [ring "1.0.1"]
-                 [enlive "1.0.0"]]
+                 [enlive "1.0.0"]
+                 [clj-aws-s3 "0.3.2"]]
   :plugins [[lein-cljsbuild "0.2.9"]
             [lein-ring "0.7.5"]]
   :ring {:handler twitpic.core/handler}

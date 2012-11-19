@@ -9,9 +9,10 @@
     <![endif]-->
 </head>
 <body>
-     <form method="POST" action="/save" >
-       <input type="text" name="url"/>
+  <form action="/save" method="POST" enctype="multipart/form-data">
+       <input type="file" name="url" size="20"/>
        <input type="submit" value="Save Pic!"/>
+
 
     <!-- pointing to cljsbuild generated js file -->
     <script src="js/twitpic.js"></script>
